@@ -1,0 +1,17 @@
+::Tomcat
+http://172.16.4.231:8080/appsBackAnalisis/
+http://172.16.4.231:8080/appsFrontAnalisis/
+::
+http://172.16.4.231:8080/appsFrontAnalisis/standAlone/intradiaIpcv0.jsp
+http://172.16.4.231:8080/appsFrontAnalisis/standAlone/tickerv0.jsp
+http://172.16.4.231:8080/appsFrontAnalisis/standAlone/topMmv0.jsp
+::websphere
+http://mxl43935l8.actinver.com.mx:9081/appsBackAnalisis/
+
+MXL43935L8Node02
+
+::WebLogic::
+http://10.10.111.10:7777/appsFrontAnalisis/
+http://10.10.111.10:7777/appsFrontAnalisis/admTickerv0
+::WebSocket::
+socket = new SockJS('http://mxl43935l8.actinver.com.mx:9081/appsAnalisis/webSocket/analisis');

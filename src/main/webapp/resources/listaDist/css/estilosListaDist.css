@@ -1,0 +1,101 @@
+.alert-danger-ldm {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.jumbo-load-ldm {
+    color: #3c763d;
+}
+
+.stlLnkTre:hover {
+  color: #115eac !important;
+}
+.stlLnkTre:focus {
+  color: #115eac !important;
+}
+.stlLnkTre2:hover {
+  color: #115eac !important;
+}
+.stlLnkTre2:focus {
+  color: #115eac !important;
+}
+
+.stlLiTre {
+    padding: 4px 15px !important;
+    border: 0 solid #dddddd !important;
+}
+
+/* .stlLiTre:hover { */
+/*   color: #FFFFFF !important; */
+/*   border-color: #f5ca45 !important; */
+/*   background-color: #f5ca45 !important; */
+/* } */
+
+label input {
+  display: none;/* <-- hide the default checkbox */
+}
+label span {/* <-- style the artificial checkbox */
+  height: 14px;
+  width: 14px;
+  border: 1px solid #115eac;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+}
+label span:hover {
+  border: 1px solid #115eac;
+}
+[type=checkbox]:checked + span:before {/* <-- style its checked state..with a ticked icon */
+  content: '\2714';
+  position: absolute;
+  top: -2px;
+  left: 0;
+  color: #115eac;
+}
+[type=checkbox]:checked:hover + span:before {
+  color: #115eac;
+}
+
+.succesInMap{
+/* 	background-color: #007a4d !important; */
+/* 	color: #FFFFFF !important; */
+	border-color: #007a4d !important;
+	color: #656565 !important;
+}
+
+.dangerInMap{
+/* 	background-color: #c60c30 !important; */
+/* 	color: #FFFFFF !important; */
+	color: #656565 !important;
+}
+
+.correctEm{
+	border-color: #007a4d !important;
+}
+
+.inCorrectEm{
+	border-color: #c60c30 !important;
+}
+
+.alert-success-map{
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    text-align: center;
+    font-size: 15px;
+}
+
+.stlsProgres{
+    height: 100px;
+}
+
+.stlsProgres > svg{
+    height: 100px;
+    height: 100%;
+    display: block;
+}
+
+.backInSel1{
+	background-color: #115eac;	
+}

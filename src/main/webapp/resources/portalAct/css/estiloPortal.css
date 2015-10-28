@@ -1,0 +1,136 @@
+.wrapMainStation{
+	width: 100%;
+	height: 100%;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+
+.wrapContenArea{
+	float: left;
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+.tableMainStation{
+	width: 100%;
+	height: 100%;
+/* 	border: 1px solid #DCDCDC; */
+}
+
+.tableHeaderTitle{
+	background-color: #115EAC;
+	color: white;
+	text-align: center;
+	height: 32px;
+}
+
+.tableBodyCenter{
+	text-align: center;
+}
+
+.tableBodyMargen{
+	padding-left: 20px;
+}
+
+.tableActivNet{
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+.tabContentRight{
+	text-align: right;
+}
+
+.tabContentLeft{
+	text-align: left;
+}
+
+.tablePadHead{
+	padding-right: 10px;
+}
+
+.tablePadBod{
+	padding: 3px 10px 3px 0;
+}
+
+.tableNavVal{
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+.tablePerfo{
+	width: 100%;
+	height: 100%;
+}
+
+.boderCellReg{
+	border: 0px solid #DCDCDC;
+}
+
+.wrapBtnPdf{
+	width: 100%;
+	height: 99%;
+	float: left;
+	position: relative;
+	text-align: right;
+	margin: 1% 0;
+}
+
+.msgTicker2{
+	display: none;
+	color: #333333;
+	float: right;
+	font-family: 'Source sans Pro';
+	padding-right: 10px;
+}
+
+.wrapMainEtf{
+	width: 100%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+
+.wrapContenAreaEtf{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.titleContenAreaEtf{
+	text-align: center;
+	color:#333;
+	font-weight:bold;
+}
+
+.wrapContenAreaSmar{
+	float: left;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	display: none;
+}
+
+.wrapContenAreaAng{
+	float: left;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	display: none;
+}
+
+.wrapContenAreaDia{
+	float: left;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	display: none;
+}
+
+.posGraphSm{
+	margin-top: -55px;
+}

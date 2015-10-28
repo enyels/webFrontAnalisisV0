@@ -1,0 +1,255 @@
+ul.token-input-list {
+	border-radius: 6px;
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+}
+.vetastr{
+text-align: right;
+border: 0px;
+border-color:  #FFFFFF;
+
+}
+body{
+  /*overflow:hidden;*/
+}
+
+
+td {
+  padding: 1px;
+  text-align: right;
+  padding: 4px;
+  border-top: 0px solid #FFFFFF;
+
+ 
+  }
+  .tituloCol{
+  text-align: left;
+  
+  }
+  
+
+.token-input-input-token {
+	height: 28px;
+	webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-webkit-transition: border-color ease-in-out .15s, box-shadow
+		ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+#miboton{
+	height: 30px;
+	width: 30px;
+	border-color:#001223;
+	background-image: url(/resources/images/img/lupa.png);
+	background-repeat-y: no-repeat;
+	background-repeat-x: no-repeat;
+
+}
+.token-input-input-token{
+height: 28px;
+}
+
+#tablefinancialinformation{
+font-size: 11.5px;
+
+}
+
+td.titoCol{
+width:8px;
+}
+#tablefinancialinformation .th{
+
+}
+#tablefinancialinformation .td{
+
+}
+
+.table{
+border: 0px;
+ border-color:  #FFFFFF;
+  border-top: 0px:
+}
+
+h3{
+font-family: Source Sans Pro;
+font-weight: normal;
+}
+.panel-title {
+  height: 20px;
+  font-size: 13px;
+ 
+  text-transform: capitalize;
+ padding-top: 1px;
+
+
+
+}
+.panel-primary > .panel-heading {
+	color: #ffffff;
+	background-color: #001223;
+	border-color: #001223;
+	height: 20px;
+	font-family: Source Sans Pro;
+	text-transform: lowercase;
+    vertical-align: text-bottom;
+     padding-top: 1px;
+}
+.panel-body{
+	border-bottom-right-radius:0em 0em;
+	border-bottom-left-radius:0em 0em;
+	font-size:12px;
+	font-family: Source Sans Pro;
+	padding: 0;
+
+}
+.panel {
+    border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius:0em 0em;
+	border-bottom-left-radius:0em 0em;
+	border-color: #DCDCDC;
+}
+.input-group{
+	width:30%;
+
+}
+
+.btn-default{
+ 	background-image: url("../img/icon_busqueda_cal.jpg");
+	width: 30px;
+	height: 28px;
+	border-color: transparent;
+	border-radius: 0px;
+
+}
+.contenedor{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: Source Sans Pro;
+
+}
+
+
+
+.resul{
+  text-align: right;
+  padding-left: 5%;
+  width: 30%;
+  padding-top: 0%;
+}
+
+.trHead{
+  text-align: right;
+  padding-left: 0%;
+  width: 100%;
+  padding-top: 0%;
+  background-color: #065CAF;
+  color: white;
+}
+
+.resulSeg{
+  text-align: right;
+  padding-left: 5%;
+  width: 15%;
+  padding-top: 0%;
+}
+
+.resulSeg3{
+  text-align: right;
+  padding-left: 5%;
+  width: 30%;
+  padding-top: 0%;
+}
+
+.resulSegL{
+  text-align: left;
+  padding-left: 0%;
+  /*width: 28%;*/
+  padding-top: 0%;
+}
+.resulSeg1{
+  text-align: left;
+  padding-left: 0%;
+ /* width: 28%;*/
+  padding-top: 0%;
+}
+
+.resulSeg2{
+  text-align: left;
+  padding-left: 0%;
+  /*width: 28%;*/
+  padding-top: 0%;
+}
+.resulSeg3{
+  text-align: left;
+  padding-left: 0%;
+
+  padding-top: 0%;
+}
+.tituloColInfo{
+ text-align: left;
+ width: 50px;
+}
+
+
+.resulBold{
+  font-weight: bold;
+  text-align: right;
+  padding-left: 4%;
+  width: 32%;
+  padding-top: 0%;
+}
+.resulBold2{
+  font-weight: bold;
+  text-align: right;
+  padding-left: 5%;
+  width: 40%;
+  padding-top: 0%;
+
+}
+.resulBoldHist{
+  font-family:Source+Sans+Pro:400,700;
+ font-weight: bold;
+  text-align: left;
+  text-align: right;
+  padding-left: 0%;
+  width: 12%;
+
+  padding: 0 0 0 0; 
+}
+
+.resulRed{
+  font-weight: bold;
+  text-align: right;
+  padding-left: 5%;
+  width: 50%;
+  padding-top: 0%;
+  color: red;
+}
+.resulGreen{
+  font-weight: bold;
+  text-align: right;
+  padding-left: 5%;
+  width: 50%;
+  padding-top: 0%;
+  color: green;
+}
+
+/* @media (max-width: 980px) { 
+        body {
+          font-size: 5px;
+
+        }
+
+        .panel-body{
+          font-size:8px;
+
+        }
+
+
+        .hidden-phone {
+           display: block;
+        }
+    } */

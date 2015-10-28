@@ -1,0 +1,524 @@
+/* @charset "utf-8"; */
+/* 180885::Standar */
+
+/* * { */
+/*     padding: 0; */
+/*     margin: 0; */
+/* } */
+
+body{
+	overflow: hidden;
+}
+
+.forTitles{
+	color: #333333;
+/* 	font-family: 'Source sans Pro'; */
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 1.1;
+	text-transform: uppercase;
+}
+.forSubTitles{
+	color: #333333;
+	font-family: 'Source sans Pro';
+	font-weight: bold;
+	font-size: 18px;
+/* 	text-transform: capitalize; */
+}
+.forSubTitles2{
+  color: #FFF;
+  font-family: 'Source sans Pro';
+  font-weight: normal !important;
+  font-size: 20px;
+/*   text-transform: uppercase !important; */
+}
+.forText{
+	color: #333333;
+	font-family: 'Source sans Pro';
+	font-size: 14px;
+}
+.lineSeparator{
+/* 	Propiedad para separador 1px solid #e9e9e9	 */
+}
+.msgTicker{
+	color: #333333;
+	float: right;
+	font-family: 'Source sans Pro';
+	padding-right: 10px;
+}
+
+/* 180885::Standar */
+/* 180885::topMmv0 */
+.divWrapper{
+	background: #FFFFFF;
+	float: left;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+.tablesTops{
+	border-collapse: collapse;
+	float: left;
+	height: 100%;
+	margin-top: 15px;
+	position: relative;
+	width: 100%;
+}
+.headerTops{
+	border-bottom: 1px solid #e9e9e9;
+	text-align: left;
+}
+.imageUp {
+	background: url(../images/up.png) no-repeat 5px 4px;
+}
+.imageDown {
+	background: url(../images/down.png) no-repeat 5px 4px;
+}
+.regEstilo{
+	padding: 7px 0 0 15px;
+}
+.regEstiloSpec{
+	padding: 7px 0 0 5px;
+}
+.backCotUp{
+	background: url(../images/up.png) no-repeat 7px 6px;
+}
+.backCotDown{
+	background: url(../images/down.png) no-repeat 7px 6px;
+}
+/* 180885::topMmv0 */
+/* 180885::EstiloBtnEmail */
+.botonEmail{
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: normal;
+	font-family: 'Source Sans Pro';
+	background-color: #115eac;
+	border-color: #0f5195;
+	border-radius: 6px;
+	border: 1px solid transparent;
+	padding: 4px 5px;
+	text-align: center;
+	text-decoration: none;
+	display: none;
+/* 	display: inline-block; */
+	line-height: 1.428;
+	margin: -5px;
+	margin-top: -7px;
+	overflow: hidden;
+}
+.botonEmail:hover{
+	background: #0f5195;
+}
+.fa{
+	margin-left: 10px;
+}
+/* 180885::EstiloBtnEmail */
+/* map::modal::myModal */
+#modMail{
+	z-index: 10000;
+}
+#backModMail{
+	z-index: 10001;
+}
+/* .separadorSM{ */
+/* 	background-color: yellow; */
+/* } */
+/*map::modal::myModal*/
+
+/*Estilos Admin*/
+.wrapAdmTick{
+/* 	background: blue; */
+	float: left;
+	height: 85%;
+	position: relative;
+	width: 100%;
+}
+.areaSelects{
+/* 	background: blue; */
+	float: left;
+	height: 100%;
+	position: relative;
+	width: 45%;
+}
+.areaSelectsImg{
+/* 	background: red; */
+	float: left;
+	height: 100%;
+	position: relative;
+	padding-top:17%;
+	width: 10%;
+	text-align: center;
+}
+.areaImgAOR{
+/* 	background: orange; */
+	float: left;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding-top: 40%;
+}
+.wrapAdmTickArBtn{
+/* 	background: green; */
+	float: left;
+	height: 10%;
+/* 	margin-top: 5%; */
+	position: relative;
+	text-align: right;
+	width: 100%;
+}
+.genBtn{
+	cursor: pointer;
+}
+.genBtn:hover{
+	background: #dddddd;
+}
+
+/*AdmTicker lista*/
+.mostrarEm{
+	display: block;
+}
+.ocultarEm{
+	display: none;
+}
+.wrapRadios{
+	float: left;
+	position: relative;
+	width: 100%;
+}
+.spaceLabel{
+	float: left;
+	position: relative;
+	width: 31%;
+}
+.messageWarn{
+	float: left;
+	position: relative;
+	color: #065CAF;
+/* 	color: #a94442; */
+	padding-top: 26px;
+	margin-left: 10px;
+}
+
+/*::ini::CL & ID CPTCH */
+#captcha {
+    padding: 0;
+}
+.captcha-confirm {
+    display: none;
+    margin: 15px 0 0 0;
+}
+#captcha span {
+    display: none;
+    visibility: hidden;
+}
+#captcha .cItem {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 35px;
+    float: left;
+    width: 35px;
+    height: 35px;
+    margin: 3px 3px 3px 0;
+    padding: 1px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #333;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, .25);
+}
+.formCapchaMap {
+	float: left;
+	position: relative;
+	width: 100%;
+}
+.fmGrpMap {
+	float: left;
+	position: relative;
+	width: 100%;
+}
+.cntrCptchMap{
+/* 	display: inline-flex; */
+	padding-left: 10px;
+}
+/*::end::CL & ID CPTCH */
+
+/*::ini::CL & ID CPTCH extract mobile*/
+ul#seleccionable {
+    margin: 15px 0;
+    padding: 0;
+    display: inline;
+    overflow: hidden;
+}
+
+div#opcion {
+    padding: 0 5px;
+    width: 50px;
+    display: inline;
+    font-size: 24px;
+    color: white;
+    opacity: .2;
+    border: 1px dotted white;
+}
+
+li.seleccionables {
+    float: left;
+    width: 50px;
+    list-style: none;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+}
+.positionMap{
+	float: left;
+	position: relative;
+	text-align: center;
+}
+
+.positionMap2{
+	float: left;
+	position: relative;
+	text-align: center;
+	background: #032034;
+	top: 4px;
+}
+
+.textCapt{
+	display: inline-block;
+	font-weight: normal;
+}
+/*::end::CL & ID CPTCH extract mobile*/
+
+.list-group-item{
+	padding: 4px 15px !important;
+}
+.navScroll{
+    max-height: 325px;
+    overflow-y: auto; 
+}
+.styleBtns{
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: normal;
+	font-family: 'Source Sans Pro';
+	background-color: #115eac;
+	border-color: #0f5195;
+	border-radius: 6px;
+	border: 1px solid transparent;
+	padding: 4px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	line-height: 1.428;
+}
+.styleBtns:hover{
+	background: #0f5195;
+}
+a.colorOver:hover{
+	background-color: #FBCF45 !important;
+}
+.deepAdmTick{
+	background-color: #dddddd;
+}
+
+/*ini::Estilos form contact*/
+.preview-box{
+  padding: 15px;
+  overflow: hidden;
+  background: #FFFFFF;
+  border: 1px solid #CACACA;
+}
+.quitMarg{
+	margin-left: 0px !important;
+	width: 20px;
+}
+.messageFail{
+	float: left;
+	position: relative;
+	padding-top: 26px;
+	margin-left: 10px;
+	color: #FF0000;
+}
+.messageOk{
+	float: left;
+	position: relative;
+	padding-top: 26px;
+	margin-left: 10px;
+	color: #00A900;
+}
+/*fin::Estilos form contact*/
+/*ini :: Head & Foot Mod*/
+.map-header{
+	background: url(../images/fnd.jpg) repeat-x; 
+}
+.map-close{
+	   font-size: 30px;
+       color: #FFF;
+       opacity: 0.8;
+}
+.map-close:hover{
+       color: #FFF;
+       opacity: 1;
+}
+.map-footer{
+/* 	background: url(../images/fnd.jpg) repeat-x; */
+/*   	margin-top: 77px; */
+}
+.comClass{
+	float: left;
+	position: relative;
+	width: 50%;
+}
+.wrapBtnEm{
+	float: right;
+  	padding-top: 5px;
+}
+.wrapImgAct{
+	float: left;
+	position: relative;
+	height: 56px;
+	width: 100%;
+}
+.clImgAct{
+	height: 100%;
+	padding-top: 8px;
+}
+.clImgAct2{
+/* 	background: url(../images/img/logo.png) no-repeat; */
+	background: url(../images/loguito.png) no-repeat;
+	width: 54px;
+  	height: 59px;
+  	float: right;
+}
+.img-messg{
+	background: url(../images/mensaje.png) no-repeat 10px 0;
+	width: 32px;
+  	height: 23px;
+  	float: left;
+}
+.img-asun{
+	background: url(../images/asunto.png) no-repeat 10px 0;
+	width: 26px;
+  	height: 14px;
+  	float: left;
+  	margin-top: 4px;
+}
+.img-usuar{
+	background: url(../images/usuario.png) no-repeat 10px 0;
+	width: 29px;
+  	height: 22px;
+  	float: left;
+}
+.agrupImgTxt{
+	float: left;
+	position: relative;
+	height: 100%;
+	width: 50%;
+}
+/*fin :: Head & Foot Mod*/
+
+/*ini:Modal Login*/
+#modMailLg{
+	z-index: 10000;
+}
+#backModMailLg{
+	z-index: 10001;
+}
+.map-headerLg{
+       padding: 0px;
+       border-bottom: 1px solid #e5e5e5;
+}
+/* .messageWarnLg{ */
+/* 	float: left; */
+/* 	position: relative; */
+/* 	color: #065CAF; */
+/* 	margin-left: 10px; */
+/* } */
+.messageWarnLg {
+  float: left;
+  position: relative;
+  color: #FFD430;
+  margin-left: 10px;
+  font-size: 13px;
+}
+.botonLg{
+	color: #000;
+	font-size: 13px;
+	font-weight: normal;
+	font-family: 'Source Sans Pro';
+	background-color: #fdc82f;
+	border-color: #fdc116;
+	border-radius: 6px;
+	border: 1px solid transparent;
+	padding: 4px 5px;
+	text-align: center;
+	text-decoration: none;
+	display: none;
+	line-height: 1.428;
+	margin: 0px;
+	margin-top: 0px;
+/* 	margin: -5px; */
+/* 	margin-top: -7px; */
+	overflow: hidden;
+}
+.botonLg:hover{
+	color: #FFF;
+}
+.formatLabelModLg{
+	color:#ffffff !important; 
+	font-size: 14px !important; 
+	font-weight: normal !important;
+}
+.wrapBtnEmLg{
+	width: 15%;
+	float: right;
+  	padding-top: 5px;
+  	text-align: center !important;
+}
+/*fin:Modal Login*/
+
+/*ini::Imgs tipo cambio*/
+.img-dollar{
+	background: url(../images/usa.png) no-repeat 0 0;
+	width: 13px;
+  	height: 9px;
+  	float: left;
+  	margin-top: 6px;
+}
+.img-euro{
+	background: url(../images/euro.png) no-repeat 0 0;
+	width: 13px;
+  	height: 9px;
+  	float: left;
+  	margin-top: 6px;
+}
+.img-orocen{
+	background: url(../images/oro.png) no-repeat 0 0;
+	width: 13px;
+  	height: 13px;
+  	float: left;
+  	margin-top: 4px;
+}
+.img-platalib{
+	background: url(../images/libra.png) no-repeat 0 0;
+	width: 13px;
+  	height: 13px;
+  	float: left;
+  	margin-top: 4px;
+}
+/*fin::Imgs tipo cambio*/
+
+/*ini::Posicion texto login*/
+.poslogin{
+  float: right;
+  margin: -5px 20px 0 0;
+}
+.adaptorIos{
+	position: fixed;
+	width: 100%; 
+}
